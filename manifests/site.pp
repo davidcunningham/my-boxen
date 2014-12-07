@@ -68,6 +68,7 @@ node default {
   #nodejs::version { 'v0.8': }
   nodejs::version { 'v0.10.31': }
 
+  class {'nodejs::global': version => 'v0.10.31'}
   nodejs::module {'bower': node_version => 'v0.10.31'}
   nodejs::module {'yo': node_version => 'v0.10.31'}
   nodejs::module {'generator-angular': node_version => 'v0.10.31'}
