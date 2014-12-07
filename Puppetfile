@@ -66,7 +66,7 @@ github "mongohub",    "1.1.0", :repo => "eebs/puppet-mongohub"
 github "virtualbox",  "1.0.13"
 github "cyberduck",   "1.1", :repo => "davidcunningham/puppet-cyberduck"
 github "sourcetree",  "1.1", :repo => "davidcunningham/puppet-sourcetree"
-#github "cornerstone", "
+github "cornerstone", "1.0.1", :repo => "b00giZm/puppet-cornerstone"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
