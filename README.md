@@ -49,7 +49,7 @@ Otherwise, follow instructions below.
 1. Open Xcode.
 1. Open the Preferences window (`Cmd-,`).
 1. Go to the Downloads tab.
-1. Install the Command Line Tools.
+1. Install the Command Line Tools running: xcode-select --install
 
 ### Bootstrapping
 
