@@ -46,10 +46,8 @@ Otherwise, follow instructions below.
 #### OS X < 10.9
 
 1. Install Xcode from the Mac App Store.
-1. Open Xcode.
-1. Open the Preferences window (`Cmd-,`).
-1. Go to the Downloads tab.
-1. Install the Command Line Tools.
+1. Open Xcode to Agree to License
+1. Open Termin to install the Command Line Tools by running: xcode-select --install
 
 ### Bootstrapping
 
