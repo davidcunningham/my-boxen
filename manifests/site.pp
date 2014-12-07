@@ -71,6 +71,9 @@ node default {
   nodejs::module {'bower': node_version => 'v0.10.31'}
   nodejs::module {'yo': node_version => 'v0.10.31'}
   nodejs::module {'generator-angular': node_version => 'v0.10.31'}
+  nodejs::module {'cordova': node_version => 'v0.10.31'}
+  nodejs::module {'ionic': node_version => 'v0.10.31'}
+  nodejs::module {'generator-ionic': node_version => 'v0.10.31'}
 
   # default ruby versions
   #ruby::version { '1.9.3': }
@@ -96,7 +99,9 @@ node default {
   include webstorm
   include java
   include eclipse::jee
-  #include eclipse:ggts
+  #include eclipse::ggts
   include mongodb
   include mysql
+  include cyberduck
+  include sourcetree
 }
