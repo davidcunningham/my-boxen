@@ -57,7 +57,7 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-github "webstorm",    "1.1.1"
+github "webstorm",    "1.2.0", :repo => "davidcunningham/puppet-webstorm"
 github "java",        "1.7.1"
 github "eclipse",     "2.4.1b", :repo => "davidcunningham/puppet-eclipse"
 github "mongodb",     "1.3.3"
