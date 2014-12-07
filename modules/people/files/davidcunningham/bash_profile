@@ -1,4 +1,7 @@
 #.bash_profile configuration
 
 alias ll='ls -al'
+alias start_mongo='boxen --enable-service mongodb'
+alias stop_mongo='boxen --disable-service mongodb'
+
 source /opt/boxen/env.sh
