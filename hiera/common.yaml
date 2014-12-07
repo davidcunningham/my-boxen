@@ -8,5 +8,5 @@
 # heart's content.
 
 nodejs::global::version: "v0.10.31"
-mysql::config::port: 3306
-webstorm::version: 8.0.4
+mysql::config::port: "3306"
+webstorm::version: "8.0.4"
