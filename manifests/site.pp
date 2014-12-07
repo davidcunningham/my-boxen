@@ -108,6 +108,7 @@ node default {
   include virtualbox
   include mongohub
   include cornerstone
+  include java6
 
   file { "/Users/${::boxen_user}/.bash_profile":
     source => "${boxen::config::repodir}/modules/people/files/${boxen::config::login}/bash_profile"
