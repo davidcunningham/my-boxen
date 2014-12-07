@@ -1,0 +1,4 @@
+#.bash_profile configuration
+
+alias ll='ls -al'
+source /opt/boxen/env.sh

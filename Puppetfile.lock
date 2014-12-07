@@ -49,6 +49,11 @@ GITHUBTARBALL
     mongodb (1.3.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (1.99.18)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.4)
@@ -89,6 +94,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.13)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -102,11 +112,6 @@ GITHUBTARBALL
   remote: davidcunningham/puppet-eclipse
   specs:
     eclipse (2.4.1b)
-
-GITHUBTARBALL
-  remote: davidcunningham/puppet-mysql
-  specs:
-    mysql (1.3)
 
 GITHUBTARBALL
   remote: davidcunningham/puppet-sourcetree
@@ -148,7 +153,7 @@ DEPENDENCIES
   java (= 1.7.1)
   module_data (= 0.0.3)
   mongodb (= 1.3.3)
-  mysql (= 1.3)
+  mysql (= 1.99.18)
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
   openssl (= 1.0.0)
@@ -159,6 +164,7 @@ DEPENDENCIES
   sourcetree (= 1.1)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
+  virtualbox (= 1.0.13)
   webstorm (= 1.2.0)
   xquartz (= 1.2.1)
 

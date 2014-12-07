@@ -104,4 +104,10 @@ node default {
   include mysql
   include cyberduck
   include sourcetree
+  include virtualbox
+
+  file { "/Users/${::boxen_user}/.bash_profile":
+    source => "${boxen::config::repodir}/modules/people/files/${boxen::config::login}/bash_profile"
+  }
+
 }
