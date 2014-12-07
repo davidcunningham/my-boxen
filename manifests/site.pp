@@ -105,7 +105,7 @@ node default {
   #include mysql
   include cyberduck
   include sourcetree
-  include virtualbox
+  #include virtualbox
   include mongohub
   include cornerstone
   include java6
