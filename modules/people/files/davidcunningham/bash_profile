@@ -12,7 +12,7 @@ export ANDROID_HOME=/usr/local/Cellar/android-sdk
 
 export MAVEN_OPTS="-Djavax.net.ssl.trustStore=/Users/DavidCunningham/Development/tools/collab-nexus-truststore.jks -Djavax.net.ssl.trustStorePassword="
 
-JAVA7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
+JAVA7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home
 
 export JAVA_HOME=$JAVA7_HOME
 
